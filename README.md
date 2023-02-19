@@ -2,13 +2,23 @@
 Android Notification Module in Java language + Single UI with button to test it
 
 
+# AndroidSharedPrefsModule
+Android Shared Preferences class in Java language + Single UI using some of its methods + picture of it's actual path
+
+
 # **Usage**
-1. **Put NotificationModule class in your app folder**
+1. **Put SharedPrefs class in your app folder**
 2. **Use the following in the place you want ot fire a notification**; substitute the i/p parameters by their equivalent in your project
 ** **
     // Making an instance of the module
-    NotificationModule notification= new NotificationModule("NotificationTitle","NotificationContent","NotificationName",R.drawable.ic_launcher_foreground,MainActivity.this,CHANNEL_ID);
-
-    // Firing a notification
-    notification.fireNotification();
+    SharedPrefs sharedPrefs =new SharedPrefs(getApplicationContext(),"sharedPrefsName");
+        
+    // Writing in sharedPrefs
+    sharedPrefs.write("isLoggedIn",false);
+    
+    
+    // Reading from sharedPrefs
+    sharedPrefs.readMap("isLoggedIn",false);
+- - - - 
+Picture of the actual path will be added soon
 - - - - 
