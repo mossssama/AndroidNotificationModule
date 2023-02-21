@@ -3,9 +3,9 @@ Android Notification Module in Java language + Single UI with button to test it
 
 # **Usage** 
 ***
-[1] **Add the following dependency** 
+[1] **Add the following permission** 
 
-    <!-- Notification dependency -->
+    <!-- Notification permission -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 ***
 [2] **Put [NotificationModule class](https://github.com/mossssama/AndroidNotificationModule/blob/main/Notify/app/src/main/java/com/example/notify/NotificationModule.java) in your app folder**
