@@ -2,6 +2,7 @@
 Android Notification Module in Java language + Single UI with button to test it
 
 # **Usage**
+***
 1. **Add the following dependency** 
 #
     <!-- Notification dependency -->
